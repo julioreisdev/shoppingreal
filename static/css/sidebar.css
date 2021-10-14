@@ -1,0 +1,81 @@
+.sidebar {
+    border-top: 0.5px solid rgb(240, 240, 245);
+    border-bottom: 0.5px solid rgb(240, 240, 245);
+    border-right: 0.5px solid gainsboro;
+    background-color: rgb(251, 251, 251);
+    padding: 1rem;
+}
+
+.sidebar-link {
+    display: block;
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+    font-weight: bold;
+}
+
+.caixa-flex-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.sidebar-link:hover {
+    opacity: 0.6;
+}
+
+.sidebar-link-img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar-img-movel {
+    background-image: url('../img/moveis.jpeg');
+}
+
+.sidebar-img-info {
+    background-image: url('../img/info.jpeg');
+}
+
+.sidebar-img-confec {
+    background-image: url('../img/confec.jpeg');
+}
+
+.sidebar-img-papel {
+    background-image: url('../img/papel.jpeg');
+}
+
+.sidebar-img-cel {
+    background-image: url('../img/cel.jpeg');
+}
+
+.sidebar-img-deco {
+    background-image: url('../img/deco.jpeg');
+}
+
+.sidebar-img-pecas {
+    background-image: url('../img/pecas.jpeg');
+}
+
+.sidebar-img-const {
+    background-image: url('../img/const.jpeg');
+}
+
+.sidebar-img-esporte {
+    background-image: url('../img/esporte.jpeg');
+}
+
+.sidebar-img-eletro {
+    background-image: url('../img/eletro.jpeg');
+}
+
+.sidebar-img-relogios {
+    background-image: url('../img/relogios.jpeg');
+}

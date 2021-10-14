@@ -1,0 +1,59 @@
+.cabecalho {
+    box-shadow: 0 1px 5px gainsboro;
+    background-color: #fff;
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+}
+
+.cabecalho-flex {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem auto 0.5rem 1rem;
+}
+
+.cabecalho__logo {
+    width: 120px;
+    height: 80px;
+}
+
+#campo-busca-produto, #botao-busca-produto {
+    padding: 0.8rem 0.5rem;
+    border-radius: 3px;
+}
+
+#campo-busca-produto {
+    border: 1px solid gainsboro;
+}
+
+#botao-busca-produto {
+    color: #DC143C;
+    border: 1px solid #DC143C;
+    background-color: #fff;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+
+#botao-busca-produto:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #DC143C;
+}
+
+@media (min-width:0px) and (max-width:768px) {
+    .cabecalho {
+        position: static;
+    }
+    #campo-busca-produto {
+        width: 7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #campo-busca-produto, #botao-busca-produto {
+        padding: 0.2rem;
+    }
+}
