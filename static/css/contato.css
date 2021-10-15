@@ -1,0 +1,15 @@
+.contato {
+    background-color: #DC143C;
+    color: #fff;
+    padding: 1rem;
+}
+
+.contato-titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.texto-contato {
+    margin-bottom: 1rem;
+}

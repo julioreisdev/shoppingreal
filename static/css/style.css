@@ -15,20 +15,3 @@
 .conteudo {
     grid-area: conteudo;
 }
-
-.titulo {
-    text-align: center;
-    transform: translateY(50%);
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.texto {
-    line-height: 1.25rem;
-    margin-bottom: 1rem;
-}
-
-.subtitulo {
-    font-weight: 400;
-    font-size: 1.1rem;
-}
