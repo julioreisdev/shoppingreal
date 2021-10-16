@@ -1,3 +1,19 @@
 .caixa-conteudo {
     padding: 1rem;
 }
+
+/*  */
+.caixa-conteudo__botoes-troca-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-conteudo__botoes-troca-pagina button {
+    color: darkred;
+    background-color: #fdfdfd;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    font-weight: bold;
+}
+/*  */

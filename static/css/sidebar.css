@@ -13,6 +13,10 @@
     font-weight: bold;
 }
 
+.sidebar-link.ativo {
+    color: darkred;
+}
+
 .caixa-flex-links {
     display: flex;
     justify-content: space-between;
@@ -28,12 +32,15 @@
 .sidebar-link-img {
     width: 30px;
     height: 30px;
-    background-color: red;
 
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.sidebar-img-destaque {
+    background-image: url('../img/star.png');
 }
 
 .sidebar-img-movel {

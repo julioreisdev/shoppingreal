@@ -1,7 +1,7 @@
 .conteudo {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 23vw 77vw;
+    grid-template-columns: 23vw 75vw;
 }
 
 @media (min-width:0px) and (max-width:768px) {
