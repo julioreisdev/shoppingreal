@@ -4,7 +4,7 @@
 
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 100px;
 }
 
@@ -48,6 +48,11 @@
     .cabecalho {
         position: static;
     }
+
+    .cabecalho-flex {
+        justify-content: space-around;
+    }
+
     #campo-busca-produto {
         width: 7rem;
         margin-bottom: 0.5rem;
