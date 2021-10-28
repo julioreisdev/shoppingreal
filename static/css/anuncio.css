@@ -9,27 +9,39 @@
     text-align: center;
 }
 
+.titulo-anuncio01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6495ED;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
 .anuncio01 {
-    background-image: url('../img/anuncio01.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../img/anuncio01.jpeg');
+}
+
+.icone-anuncio01 {
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/icone-loterias.png');
 }
 
 @media (min-width:0) and (max-width:1100px) {
     .anuncio-molde {
-        height: 200px;
+        height: 300px;
     }
 }
 
 @media (min-width:0) and (max-width:768px) {
     .anuncio-molde {
-        height: 350px;
+        height: 450px;
     }
 }
 
 @media (min-width:0) and (max-width:380px) {
     .anuncio-molde {
-        height: 200px;
+        height: 250px;
     }
 }
